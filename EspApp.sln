@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Default", "Default\Default.vcxitems", "{D5CBF533-5F65-494B-90B2-0217F77980BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcxitems", "{D271C7DA-290C-4BB4-AC24-C6839882861A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IoT", "IoT\IoT.vcxitems", "{B59610F8-DF42-45BF-B08A-5E117DCC1764}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Esp", "Esp\Esp.vcxitems", "{EAD4AF2D-7C33-4A45-A683-D13C8AB13590}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Esp32", "Esp32\Esp32.vcxitems", "{575D39B9-A994-4328-A936-D56C4A1BAFD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EspApp", "EspApp\EspApp.vcxproj", "{D85291CB-A9FC-4E99-9D8C-71171C0CB662}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32", "Win32\Win32.vcxitems", "{0B5B01D4-8C78-4D6D-817E-9AB3E818BC0B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win", "Win\Win.vcxitems", "{4B1C0CB7-B387-4E0D-A4D3-072315FAAB66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Esp8266", "Esp8266\Esp8266.vcxitems", "{E4763A70-F18A-4E12-ABF1-B535E4003543}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32.IoT", "Win32.IoT\Win32.IoT.vcxitems", "{2F58DB61-923D-45B5-8AFB-1A0BE0DB39F9}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Win32\Win32.vcxitems*{0b5b01d4-8c78-4d6d-817e-9ab3e818bc0b}*SharedItemsImports = 9
+		Win32.IoT\Win32.IoT.vcxitems*{2f58db61-923d-45b5-8afb-1a0be0db39f9}*SharedItemsImports = 9
+		Win\Win.vcxitems*{4b1c0cb7-b387-4e0d-a4d3-072315faab66}*SharedItemsImports = 9
+		Esp32\Esp32.vcxitems*{575d39b9-a994-4328-a936-d56c4a1bafd7}*SharedItemsImports = 9
+		IoT\IoT.vcxitems*{b59610f8-df42-45bf-b08a-5e117dcc1764}*SharedItemsImports = 9
+		Common\Common.vcxitems*{d271c7da-290c-4bb4-ac24-c6839882861a}*SharedItemsImports = 9
+		Default\Default.vcxitems*{d5cbf533-5f65-494b-90b2-0217f77980bc}*SharedItemsImports = 9
+		Common\Common.vcxitems*{d85291cb-a9fc-4e99-9d8c-71171c0cb662}*SharedItemsImports = 4
+		Default\Default.vcxitems*{d85291cb-a9fc-4e99-9d8c-71171c0cb662}*SharedItemsImports = 4
+		Win32.IoT\Win32.IoT.vcxitems*{d85291cb-a9fc-4e99-9d8c-71171c0cb662}*SharedItemsImports = 4
+		Win32\Win32.vcxitems*{d85291cb-a9fc-4e99-9d8c-71171c0cb662}*SharedItemsImports = 4
+		Win\Win.vcxitems*{d85291cb-a9fc-4e99-9d8c-71171c0cb662}*SharedItemsImports = 4
+		Esp8266\Esp8266.vcxitems*{e4763a70-f18a-4e12-abf1-b535e4003543}*SharedItemsImports = 9
+		Esp\Esp.vcxitems*{ead4af2d-7c33-4a45-a683-d13c8ab13590}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Esp32 Debug|Win32 = Esp32 Debug|Win32
+		Esp32 Release|Win32 = Esp32 Release|Win32
+		Esp8266 Debug|Win32 = Esp8266 Debug|Win32
+		Esp8266 Release|Win32 = Esp8266 Release|Win32
+		Win32 Debug|Win32 = Win32 Debug|Win32
+		Win32 Release|Win32 = Win32 Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Esp32 Debug|Win32.ActiveCfg = Esp32 Debug|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Esp32 Debug|Win32.Build.0 = Esp32 Debug|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Esp32 Release|Win32.ActiveCfg = Esp32 Release|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Esp32 Release|Win32.Build.0 = Esp32 Release|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Esp8266 Debug|Win32.ActiveCfg = Esp8266 Debug|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Esp8266 Debug|Win32.Build.0 = Esp8266 Debug|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Esp8266 Release|Win32.ActiveCfg = Esp8266 Release|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Esp8266 Release|Win32.Build.0 = Esp8266 Release|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Win32 Debug|Win32.ActiveCfg = Win32 Debug|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Win32 Debug|Win32.Build.0 = Win32 Debug|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Win32 Release|Win32.ActiveCfg = Win32 Release|Win32
+		{D85291CB-A9FC-4E99-9D8C-71171C0CB662}.Win32 Release|Win32.Build.0 = Win32 Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3B01045-0F46-4F76-8EB2-257A0391E2A1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://svenbieg.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Default\\Default.vcxitems
+		SccProjectName1 = ../../Shared/Default
+		SccLocalPath1 = Default
+		SccProjectUniqueName2 = Common\\Common.vcxitems
+		SccProjectName2 = ../../Shared/Common
+		SccLocalPath2 = Common
+		SccProjectUniqueName3 = IoT\\IoT.vcxitems
+		SccProjectName3 = ../../Shared/IoT
+		SccLocalPath3 = IoT
+		SccProjectUniqueName4 = Esp\\Esp.vcxitems
+		SccProjectName4 = ../../Shared/Esp
+		SccLocalPath4 = Esp
+		SccProjectUniqueName5 = Esp32\\Esp32.vcxitems
+		SccProjectName5 = ../../Shared/Esp32
+		SccLocalPath5 = Esp32
+		SccProjectUniqueName6 = EspApp\\EspApp.vcxproj
+		SccProjectName6 = EspApp
+		SccLocalPath6 = EspApp
+		SccProjectUniqueName7 = Win32\\Win32.vcxitems
+		SccProjectName7 = ../../Shared/Win32
+		SccLocalPath7 = Win32
+		SccProjectUniqueName8 = Win\\Win.vcxitems
+		SccProjectName8 = ../../Shared/Win
+		SccLocalPath8 = Win
+		SccProjectUniqueName9 = Esp8266\\Esp8266.vcxitems
+		SccProjectName9 = ../../Shared/Esp8266
+		SccLocalPath9 = Esp8266
+		SccProjectUniqueName10 = Win32.IoT\\Win32.IoT.vcxitems
+		SccProjectName10 = ../../Shared/Win32.IoT
+		SccLocalPath10 = Win32.IoT
+	EndGlobalSection
+EndGlobal

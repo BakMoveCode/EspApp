@@ -1,0 +1,27 @@
+[submodule "Default"]
+	path = Default
+	url = http://www.github.com/svenbieg/Default
+[submodule "Common"]
+	path = Common
+	url = http://www.github.com/svenbieg/Common
+[submodule "IoT"]
+	path = IoT
+	url = http://www.github.com/svenbieg/IoT
+[submodule "Esp"]
+	path = Esp
+	url = http://www.github.com/svenbieg/Esp
+[submodule "Esp8266"]
+	path = Esp8266
+	url = http://www.github.com/svenbieg/Esp8266
+[submodule "Esp32"]
+	path = Esp32
+	url = http://www.github.com/svenbieg/Esp32
+[submodule "Win"]
+	path = Win
+	url = http://www.github.com/svenbieg/Win
+[submodule "Win32"]
+	path = Win32
+	url = http://www.github.com/svenbieg/Win32
+[submodule "Win32.IoT"]
+	path = Win32.IoT
+	url = http://www.github.com/svenbieg/Win32.IoT
